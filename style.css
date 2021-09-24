@@ -1,0 +1,160 @@
+
+
+
+
+
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStHqpTH0rkPm7LKUWOQg83Wgz7Tjzbk9Yp8g&usqp=CAU");
+  background-color: #000000;
+ background-size: 800px;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+animation: movebanner 2s;
+}
+
+.page-title:hover{
+  transform: scale(1.4);
+  border-radius: 7px;
+  transition-duration: 0.2s;
+  cursor: none;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+  animation: movebanner 2s;
+}
+
+  /*animação das imagens e titlos*/
+/*adicione: "animation: movebanner 2s;" ou 10s;" vc que decide*/
+@keyframes movebanner{
+  0%{
+    opacity: 0;
+    transform: translateY(10rem)
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(1)
+  }
+}
+
+.page-logo {
+  width: 200px;
+  animation: movebanner 2s;
+}
+
+.sena-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+
+/*---- Responsividade Celular----*/
+@media only screen and (max-width: 450px) {
+    a img {
+      align-items: center;
+      max-height: 100px;
+      border-radius: 5px;
+    }
+
+     img:hover {
+
+       /*opacity: coloque se preferir;*/
+        
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    body {
+        padding: 25px;
+    }
+}
+
+
+
+img {
+  max-height: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  transition-duration: 0.1s; 
+  animation: movebanner 4.1s;
+}
+
+img:hover {
+  transform: scale(1.3);
+  border-radius: 7px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+
+
+/*Configurações teste*/
+
+
+
+/*pesqui .bx-search{
+  position: absolute;
+  top: 24.7%;
+  left: 20%;
+  transform: translateY(-50%);
+  font-size: 22px;
+  color: #FFF;
+}*/
+
+@keyframes barra{
+  0%{
+    opacity: 0;
+  }
+  60%{
+    opacity: 0;
+  }
+ /*80%{
+   opacity: 0;
+ }*/
+  100%{
+    opacity: 1;
+  }
+}
+.pesqui input{
+  text-align: center;
+  font-size: 17px;
+  color: #000000;
+  font-weight: 400;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  width: 380px;
+  border: none;
+  border-radius: 12px;
+  transition-duration: 0.4
+  background: #FFF;
+  animation: barra 5.9s;
+}
+
+.pq {
+  position: relative;
+  left: 12%
+  background-color: red;
+  color: red;
+  z-index: 99;
+}
