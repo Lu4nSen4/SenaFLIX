@@ -1,5 +1,4 @@
-let listaDeFilmes = []
-  listaDeFilmes['capa dos filmes'] = ["https://br.web.img3.acsta.net/pictures/210/527/21052756_20131024195513383.jpg", 
+let listaDeFilmes = ["https://br.web.img3.acsta.net/pictures/210/527/21052756_20131024195513383.jpg", 
                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSMO8GOZ_nPw7mInfcuC_1xZ6K4E9i_vsZHQ&usqp=CAU", 
                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlD4uZrCDkW6KLe9ogapOT4JLTklL_gSgn2w&usqp=CAU", 
                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScFVt4sihOWpIzG9cHDkIPjBJRz3Cd2Z9E9w&usqp=CAU", 
